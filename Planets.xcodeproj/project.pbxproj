@@ -14,6 +14,8 @@
 		9DDBBD19211360D100A55978 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD18211360D100A55978 /* Planet.swift */; };
 		9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD1E211360F500A55978 /* PlanetController.swift */; };
 		A30EC128228CFD8B00DFCC8E /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30EC127228CFD8B00DFCC8E /* PlanetCollectionViewCell.swift */; };
+		A30EC12A228CFEB800DFCC8E /* PlanetCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30EC129228CFEB800DFCC8E /* PlanetCollectionViewController.swift */; };
+		A30EC12C228CFEEA00DFCC8E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30EC12B228CFEEA00DFCC8E /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9DDBBD18211360D100A55978 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		9DDBBD1E211360F500A55978 /* PlanetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
 		A30EC127228CFD8B00DFCC8E /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewCell.swift; sourceTree = "<group>"; };
+		A30EC129228CFEB800DFCC8E /* PlanetCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewController.swift; sourceTree = "<group>"; };
+		A30EC12B228CFEEA00DFCC8E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		27F670EB21EFC6AA0035C1BF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A30EC129228CFEB800DFCC8E /* PlanetCollectionViewController.swift */,
+				A30EC12B228CFEEA00DFCC8E /* SettingsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -176,8 +182,10 @@
 			files = (
 				A30EC128228CFD8B00DFCC8E /* PlanetCollectionViewCell.swift in Sources */,
 				9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */,
+				A30EC12A228CFEB800DFCC8E /* PlanetCollectionViewController.swift in Sources */,
 				9DDBBD072113609700A55978 /* AppDelegate.swift in Sources */,
 				9DDBBD19211360D100A55978 /* Planet.swift in Sources */,
+				A30EC12C228CFEEA00DFCC8E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
